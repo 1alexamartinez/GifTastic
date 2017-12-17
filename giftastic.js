@@ -4,8 +4,8 @@
 // display displayGif function re-renders the HTML to display the appropriate content
 	function displayGif () {
 		var topic = $(this).attr("data-name");
-		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=RPxQK6gdY7RI33Zyt9U3jnUf9aZOocKu";
-		console.log("Artist: " + topic);
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=uQZRK9cV6A5DMNuzTjkgmDvx4jGxiSJO";
+		console.log( topic + " from the 90's");
 		console.log("queryURL: " + queryURL);
 
 // AJAX call for the specific button being clicked 
